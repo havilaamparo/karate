@@ -1,0 +1,3087 @@
+01:30:16.760 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:30:22.577 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+01:30:22.657 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+01:30:23.249 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:30:23.252 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+01:30:24.196 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 943
+1 < 200
+1 < Date: Thu, 01 Jun 2023 04:30:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1684869112
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 25595
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SZKA5%2BmZ1nVYbeVQVH%2FCDmgVrii9OHfDsSuI4s59NYTfnxqtSTaB9zkv%2FA8n55N3j%2B2hWfcRRdmZgwzgN%2FleU5UNzWJ0OLZxooiFDcXbZK%2FKTD%2BXqGZEaTO3nJ7mJyJaOhDNNblXnz7qLlsYrPo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d04b8983b6b1181-GIG
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+01:30:24.246 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+2 > Accept-Encoding: gzip,deflate
+
+
+01:30:24.397 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1144
+1 < 201
+1 < Date: Thu, 01 Jun 2023 04:30:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685593832
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zD%2BVzC33MUI49A6s6ubP7GURyS6DU1Vt6fm5BKi6%2FoMPgG6KCq5um6OdYdEwPsI3URv0W1Yxd1GZtffeaZHrQZfYh%2BXG0XE%2BrSoeQKps9waZgptpRTac6ZTNi74vfAHEiWEXHV1c0j4fY6Qnx1Y%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d04b89839832553-GIG
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+01:30:24.407 [pool-1-thread-2] INFO  com.intuit.karate - [print] created id is:  11 
+01:30:24.428 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 181
+2 < 200
+2 < Date: Thu, 01 Jun 2023 04:30:24 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1685059530
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 3275
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0SR1fzj1Fn73wOZN9de5O4d7l7LDZhG%2BNskaEOfHP2s5OpR2rAwz%2Bk93jJfP%2FXJh0e3L1XKCPqCPjP9aTO7fV0n7HYq9UvGaRQiBufQBew8ldTz4JTIZ1MQyT4%2BTUjvjJatPDzOcNqAjs%2FBsXjs%3D"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 7d04b899cb0e259c-GIG
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+01:30:25.973 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+23:17:42.726 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: automacao/feature/get.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+23:18:42.708 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:18:42.736 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685672322729
+23:18:45.470 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+23:18:46.566 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:18:46.872 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 298
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 02:18:46 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+23:18:48.174 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+23:32:44.153 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:32:44.184 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685673164177
+23:32:47.096 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+23:32:47.699 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:32:47.775 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 70
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 02:32:47 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+23:32:49.241 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+00:15:31.108 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:15:31.139 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685675731132
+00:15:33.873 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:15:34.503 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:15:34.640 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 135
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:15:34 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:15:34.921 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/get.feature:11
+And match response.content contains "erro ao criar projeto 3"
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - erro ao criar projeto 3 (LIST:STRING)
+  [{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}]
+  'erro ao criar projeto 3'
+
+    $[9] | data types don't match (MAP:STRING)
+    {"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+    'erro ao criar projeto 3'
+
+    $[8] | data types don't match (MAP:STRING)
+    {"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+    'erro ao criar projeto 3'
+
+    $[7] | data types don't match (MAP:STRING)
+    {"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+    'erro ao criar projeto 3'
+
+    $[6] | data types don't match (MAP:STRING)
+    {"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+    'erro ao criar projeto 3'
+
+    $[5] | data types don't match (MAP:STRING)
+    {"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+    'erro ao criar projeto 3'
+
+    $[4] | data types don't match (MAP:STRING)
+    {"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+    'erro ao criar projeto 3'
+
+    $[3] | data types don't match (MAP:STRING)
+    {"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+    'erro ao criar projeto 3'
+
+    $[2] | data types don't match (MAP:STRING)
+    {"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+    'erro ao criar projeto 3'
+
+    $[1] | data types don't match (MAP:STRING)
+    {"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+    'erro ao criar projeto 3'
+
+    $[0] | data types don't match (MAP:STRING)
+    {"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+    'erro ao criar projeto 3'
+
+classpath:automacao/feature/get.feature:11
+00:15:36.897 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+00:17:00.946 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:17:00.958 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685675820950
+00:17:02.303 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:17:02.626 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:17:02.695 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 65
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:17:02 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:17:02.806 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/get.feature:11
+And match response.content[0] contains "erro ao criar projeto 3"
+match failed: CONTAINS
+  $ | data types don't match (MAP:STRING)
+  {"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}
+  'erro ao criar projeto 3'
+
+
+classpath:automacao/feature/get.feature:11
+00:17:03.620 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+00:17:54.268 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:17:54.281 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685675874272
+00:17:55.574 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:17:55.986 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:17:56.035 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 47
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:17:56 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:17:56.961 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+00:18:42.358 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:18:42.369 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685675922362
+00:18:43.636 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:18:43.917 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:18:44.107 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 186
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:18:44 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:18:44.199 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/get.feature:11
+And match response.totalPages contains 2
+unexpected type (match contains): NUMBER
+classpath:automacao/feature/get.feature:11
+00:18:44.961 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+00:19:49.074 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:19:49.084 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685675989078
+00:19:50.199 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:19:50.553 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:19:50.601 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 45
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:19:50 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:19:50.733 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/get.feature:11
+And match response.totalElements contains 13
+unexpected type (match contains): NUMBER
+classpath:automacao/feature/get.feature:11
+00:19:51.627 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+00:21:22.015 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:21:22.034 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685676082019
+00:21:23.359 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:21:23.684 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:21:23.760 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 70
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:21:23 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:21:23.851 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/get.feature:11
+And match response.totalElements contains '13'
+match failed: CONTAINS
+  $ | data types don't match (NUMBER:STRING)
+  13
+  '13'
+
+
+classpath:automacao/feature/get.feature:11
+00:21:24.630 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+00:21:55.863 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+00:21:56.647 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/automacao/feature/get.feature - mismatched input '/' expecting <EOF>
+00:22:23.572 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: automacao/feature/get.feature - mismatched input '/' expecting <EOF>
+00:22:34.878 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+00:22:35.253 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685676155248
+00:22:35.291 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+00:22:40.132 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:22:40.229 [main]  DEBUG com.intuit.karate - response time in milliseconds: 86
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:22:40 GMT
+{"content":[{"id":13,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:22:41.165 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/get.feature
+00:25:28.751 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+00:25:29.108 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685676329102
+00:25:29.152 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+00:25:30.606 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:25:30.691 [main]  DEBUG com.intuit.karate - response time in milliseconds: 79
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:25:30 GMT
+{"content":[{"id":13,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:25:30.887 [main]  INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 13,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 8,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 7,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 6,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 5,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 4,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 2,
+  "last": false,
+  "totalElements": 13,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "sorted": true,
+    "unsorted": false,
+    "empty": false
+  },
+  "first": true,
+  "numberOfElements": 10,
+  "empty": false
+}
+ 
+00:25:31.477 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/get.feature
+00:29:06.361 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:29:06.374 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685676546365
+00:29:08.202 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:29:09.254 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:29:09.354 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 69
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:29:09 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:29:09.440 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 13,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 8,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 7,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 6,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 5,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 4,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 2,
+  "last": false,
+  "totalElements": 13,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "sorted": true,
+    "unsorted": false,
+    "empty": false
+  },
+  "first": true,
+  "numberOfElements": 10,
+  "empty": false
+}
+ 
+00:29:10.614 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+00:32:01.405 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+00:32:01.782 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685676721775
+00:32:01.818 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+00:32:03.666 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:32:03.703 [main]  DEBUG com.intuit.karate - response time in milliseconds: 34
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:32:03 GMT
+{"content":[{"id":13,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:32:03.799 [main]  INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 13,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 8,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 7,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 6,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 5,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 4,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 2,
+  "last": false,
+  "totalElements": 13,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "sorted": true,
+    "unsorted": false,
+    "empty": false
+  },
+  "first": true,
+  "numberOfElements": 10,
+  "empty": false
+}
+ 
+00:32:04.073 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/get.feature:13
+And match response.totalPages == '#Integer'
+class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+src/test/java/automacao/feature/get.feature:13
+00:32:04.639 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/get.feature
+00:32:52.379 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:32:52.389 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685676772383
+00:32:53.733 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:32:54.140 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:32:54.228 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 86
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:32:54 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:32:54.289 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 13,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 8,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 7,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 6,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 5,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 4,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 2,
+  "last": false,
+  "totalElements": 13,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "sorted": true,
+    "unsorted": false,
+    "empty": false
+  },
+  "first": true,
+  "numberOfElements": 10,
+  "empty": false
+}
+ 
+00:32:54.373 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/get.feature:13
+And match response.totalPages == '#Integer'
+class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+classpath:automacao/feature/get.feature:13
+00:32:55.189 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+00:35:02.737 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:35:02.747 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685676902741
+00:35:04.202 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:35:04.516 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:35:04.566 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 48
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:35:04 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:35:04.624 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 13,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 8,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 7,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 6,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 5,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 4,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 2,
+  "last": false,
+  "totalElements": 13,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "sorted": true,
+    "unsorted": false,
+    "empty": false
+  },
+  "first": true,
+  "numberOfElements": 10,
+  "empty": false
+}
+ 
+00:35:04.728 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/get.feature:13
+And match response.totalPages == '#Number'
+class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+classpath:automacao/feature/get.feature:13
+00:35:05.616 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+00:35:37.165 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:35:37.175 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685676937169
+00:35:38.616 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:35:38.962 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:35:39.005 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 41
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 03:35:38 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"unpaged":false,"paged":true},"totalPages":2,"last":false,"totalElements":13,"size":10,"number":0,"sort":{"sorted":true,"unsorted":false,"empty":false},"first":true,"numberOfElements":10,"empty":false}
+
+00:35:39.049 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 13,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 8,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 7,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 6,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 5,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 4,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 2,
+  "last": false,
+  "totalElements": 13,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "sorted": true,
+    "unsorted": false,
+    "empty": false
+  },
+  "first": true,
+  "numberOfElements": 10,
+  "empty": false
+}
+ 
+00:35:40.045 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:automacao/feature/get.feature
+15:24:16.234 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: automacao/feature/cadastrar_topicos.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+15:25:37.006 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:25:37.048 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685730337043
+15:25:37.101 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+15:25:47.263 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+15:25:47.322 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:25:49.975 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:25:49.975 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+15:25:50.694 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 717
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 18:25:50 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzMwMzUwLCJleHAiOjE2ODU4MTcxNTB9.cH1FruzIyukiFThbo1UftDkVjhDOZ0SgpbRi8Z1XbK8","tipo":"Bearer"}
+
+15:25:52.963 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:automacao/feature/cadastrar_topicos.feature
+15:25:53.394 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 3419
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 18:25:53 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"unsorted":false,"sorted":true,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"paged":true,"unpaged":false},"last":false,"totalElements":13,"totalPages":2,"size":10,"number":0,"sort":{"unsorted":false,"sorted":true,"empty":false},"numberOfElements":10,"first":true,"empty":false}
+
+15:25:53.400 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 13,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 8,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 7,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 6,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 5,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 4,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "unsorted": false,
+      "sorted": true,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": false,
+  "totalElements": 13,
+  "totalPages": 2,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "unsorted": false,
+    "sorted": true,
+    "empty": false
+  },
+  "numberOfElements": 10,
+  "first": true,
+  "empty": false
+}
+ 
+15:25:53.770 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:automacao/feature/consultar_topicos.feature
+15:26:51.607 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+15:26:52.035 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685730412028
+15:26:52.077 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+15:26:58.238 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+15:26:58.597 [main]  DEBUG com.intuit.karate - response time in milliseconds: 350
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 18:26:58 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzMwNDE4LCJleHAiOjE2ODU4MTcyMTh9.PuHNntrUiMvr5ht2OR6ojfA0WygEv7K163asTku8HLo","tipo":"Bearer"}
+
+15:27:00.718 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar_topicos.feature
+15:27:57.350 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:27:57.361 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685730477355
+15:27:57.376 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+15:27:58.893 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+15:27:58.945 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:27:59.469 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:27:59.470 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+15:27:59.551 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 79
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 18:27:59 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"unsorted":false,"sorted":true,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"paged":true,"unpaged":false},"last":false,"totalElements":13,"totalPages":2,"size":10,"number":0,"sort":{"unsorted":false,"sorted":true,"empty":false},"numberOfElements":10,"first":true,"empty":false}
+
+15:27:59.566 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 13,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 8,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 7,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 6,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 5,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 4,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "unsorted": false,
+      "sorted": true,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": false,
+  "totalElements": 13,
+  "totalPages": 2,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "unsorted": false,
+    "sorted": true,
+    "empty": false
+  },
+  "numberOfElements": 10,
+  "first": true,
+  "empty": false
+}
+ 
+15:27:59.747 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 277
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 18:27:59 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzMwNDc5LCJleHAiOjE2ODU4MTcyNzl9.yVtVhQU4UxqNxd6qPjh7kqjiHsrzsILB9SLWwmI0nFE","tipo":"Bearer"}
+
+15:28:00.601 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:automacao/feature/cadastrar_topicos.feature
+15:28:00.780 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:automacao/feature/consultar_topicos.feature
+15:55:17.065 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+15:55:17.643 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/automacao/feature/consultar_topicos.feature - mismatched input 'A' expecting <EOF>
+15:55:39.770 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+15:55:40.185 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685732140178
+15:55:40.208 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:55:43.509 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:55:43.672 [main]  DEBUG com.intuit.karate - response time in milliseconds: 129
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 18:55:43 GMT
+{"content":[{"id":13,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"Dúvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"unsorted":false,"sorted":true,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"paged":true,"unpaged":false},"last":false,"totalElements":13,"totalPages":2,"size":10,"number":0,"sort":{"unsorted":false,"sorted":true,"empty":false},"numberOfElements":10,"first":true,"empty":false}
+
+15:55:43.852 [main]  INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 13,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 8,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 7,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 6,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 5,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 4,
+      "titulo": "Dúvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "unsorted": false,
+      "sorted": true,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": false,
+  "totalElements": 13,
+  "totalPages": 2,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "unsorted": false,
+    "sorted": true,
+    "empty": false
+  },
+  "numberOfElements": 10,
+  "first": true,
+  "empty": false
+}
+ 
+15:55:45.611 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/consultar_topicos.feature
+16:16:09.995 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:16:10.025 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685733370018
+16:16:10.047 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+16:16:15.186 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+16:16:16.775 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+16:16:18.107 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1313
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 19:16:18 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzMzMzc4LCJleHAiOjE2ODU4MjAxNzh9.rBnOC5M3C2bYfSQ9TNTNaSGlD8rvm8A1PRe0l5gwFmo","tipo":"Bearer"}
+
+16:16:20.687 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:automacao/feature/cadastrar_topicos.feature
+16:17:00.721 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: automacao/feature/consultar_topicos.feature - no viable alternative at input '\r\n@consultar\r\nBackground: '
+16:18:04.273 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:18:04.285 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685733484277
+16:18:04.302 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+16:18:05.715 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+16:18:06.075 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:18:06.164 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 87
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 19:18:06 GMT
+{"content":[{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":8,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":7,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":6,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":5,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":4,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"unsorted":false,"sorted":true,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"paged":true,"unpaged":false},"last":false,"totalElements":13,"totalPages":2,"size":10,"number":0,"sort":{"unsorted":false,"sorted":true,"empty":false},"numberOfElements":10,"first":true,"empty":false}
+
+16:18:06.181 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 13,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 8,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 7,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 6,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 5,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 4,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "unsorted": false,
+      "sorted": true,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": false,
+  "totalElements": 13,
+  "totalPages": 2,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "unsorted": false,
+    "sorted": true,
+    "empty": false
+  },
+  "numberOfElements": 10,
+  "first": true,
+  "empty": false
+}
+ 
+16:18:07.104 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:automacao/feature/consultar_topicos.feature
+16:36:56.569 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:36:57.209 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685734617204
+16:36:57.250 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:36:58.546 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/cadastrar.feature:6
+And headers Authorization 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0MTMyLCJleHAiOjE2ODU4MjA5MzJ9.iFYXB2MBweAMa306B6m0pLwPO18bFlzV-dtwIIZGvqY'
+js failed:
+>>>>
+01: Authorization 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0MTMyLCJleHAiOjE2ODU4MjA5MzJ9.iFYXB2MBweAMa306B6m0pLwPO18bFlzV-dtwIIZGvqY'
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:15 Expected ; but found Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0MTMyLCJleHAiOjE2ODU4MjA5MzJ9.iFYXB2MBweAMa306B6m0pLwPO18bFlzV-dtwIIZGvqY
+Authorization 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0MTMyLCJleHAiOjE2ODU4MjA5MzJ9.iFYXB2MBweAMa306B6m0pLwPO18bFlzV-dtwIIZGvqY'
+               ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:170)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:166)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2147)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2066)
+- com.intuit.karate.core.ScenarioEngine.evalAsMap(ScenarioEngine.java:349)
+
+src/test/java/automacao/feature/cadastrar.feature:6
+16:36:59.375 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+16:37:52.433 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:37:52.791 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685734672787
+16:37:52.827 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:37:54.036 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/cadastrar.feature:6
+And headers Authorization 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0NjU4LCJleHAiOjE2ODU4MjE0NTh9.Q5Zgpd0pjb8KxpxVY66e8So-MV0m-7099Y10vTMG5gA'
+js failed:
+>>>>
+01: Authorization 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0NjU4LCJleHAiOjE2ODU4MjE0NTh9.Q5Zgpd0pjb8KxpxVY66e8So-MV0m-7099Y10vTMG5gA'
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:15 Expected ; but found Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0NjU4LCJleHAiOjE2ODU4MjE0NTh9.Q5Zgpd0pjb8KxpxVY66e8So-MV0m-7099Y10vTMG5gA
+Authorization 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0NjU4LCJleHAiOjE2ODU4MjE0NTh9.Q5Zgpd0pjb8KxpxVY66e8So-MV0m-7099Y10vTMG5gA'
+               ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:170)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:166)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2147)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2066)
+- com.intuit.karate.core.ScenarioEngine.evalAsMap(ScenarioEngine.java:349)
+
+src/test/java/automacao/feature/cadastrar.feature:6
+16:37:54.849 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+16:38:47.585 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:38:47.966 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685734727961
+16:38:49.262 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/cadastrar.feature:8
+And headers Authorization 'Bearer' + token
+js failed:
+>>>>
+01: Authorization 'Bearer' + token
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:15 Expected ; but found Bearer
+Authorization 'Bearer' + token
+               ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:170)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:166)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2147)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2066)
+- com.intuit.karate.core.ScenarioEngine.evalAsMap(ScenarioEngine.java:349)
+
+src/test/java/automacao/feature/cadastrar.feature:8
+16:38:49.968 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+16:39:09.270 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:39:09.653 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685734749645
+16:39:10.943 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/cadastrar.feature:8
+And header Authorization 'Bearer' + token
+no step-definition method match found for: header Authorization 'Bearer' + token
+src/test/java/automacao/feature/cadastrar.feature:8
+16:39:11.730 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+16:39:30.348 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:39:30.719 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685734770715
+16:39:30.740 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5
+16:39:32.588 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: BearereyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0NjU4LCJleHAiOjE2ODU4MjE0NTh9.Q5Zgpd0pjb8KxpxVY66e8So-MV0m-7099Y10vTMG5gA
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 112
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:32:21.2772729"}
+
+16:39:35.316 [main]  DEBUG com.intuit.karate - response time in milliseconds: 2726
+1 < 403
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 19:39:35 GMT
+{"timestamp":"2023-06-02T19:39:35.157+0000","status":403,"error":"Forbidden","message":"Access Denied","path":"/topicos"}
+
+16:39:35.330 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/cadastrar.feature:10
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 2726, url: http://localhost:8080/topicos, response: 
+{"timestamp":"2023-06-02T19:39:35.157+0000","status":403,"error":"Forbidden","message":"Access Denied","path":"/topicos"}
+src/test/java/automacao/feature/cadastrar.feature:10
+16:39:35.989 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+16:40:04.228 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:40:04.650 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685734804645
+16:40:04.688 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5
+16:40:06.291 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: BearereyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0Nzk0LCJleHAiOjE2ODU4MjE1OTR9.a3Wx9D_oOaHCFZFATYUYIJPO11ojx2mDO9XNSvUCbQw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 112
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:32:21.2772729"}
+
+16:40:06.332 [main]  DEBUG com.intuit.karate - response time in milliseconds: 38
+1 < 403
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 19:40:06 GMT
+{"timestamp":"2023-06-02T19:40:06.320+0000","status":403,"error":"Forbidden","message":"Access Denied","path":"/topicos"}
+
+16:40:06.357 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/cadastrar.feature:10
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 38, url: http://localhost:8080/topicos, response: 
+{"timestamp":"2023-06-02T19:40:06.320+0000","status":403,"error":"Forbidden","message":"Access Denied","path":"/topicos"}
+src/test/java/automacao/feature/cadastrar.feature:10
+16:40:07.139 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+16:40:24.634 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:40:25.001 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685734824996
+16:40:26.592 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0Nzk0LCJleHAiOjE2ODU4MjE1OTR9.a3Wx9D_oOaHCFZFATYUYIJPO11ojx2mDO9XNSvUCbQw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 112
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:32:21.2772729"}
+
+16:40:26.777 [main]  DEBUG com.intuit.karate - response time in milliseconds: 180
+1 < 400
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 19:40:26 GMT
+1 < Connection: close
+[{"campo":"nomeCurso","erro":"n�o pode estar vazio"},{"campo":"nomeCurso","erro":"n�o pode ser nulo"}]
+
+16:40:26.810 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/cadastrar.feature:10
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 180, url: http://localhost:8080/topicos, response: 
+[{"campo":"nomeCurso","erro":"n�o pode estar vazio"},{"campo":"nomeCurso","erro":"n�o pode ser nulo"}]
+src/test/java/automacao/feature/cadastrar.feature:10
+16:40:27.449 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+16:41:55.017 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:41:55.366 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685734915361
+16:41:55.391 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5
+16:41:56.933 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0Nzk0LCJleHAiOjE2ODU4MjE1OTR9.a3Wx9D_oOaHCFZFATYUYIJPO11ojx2mDO9XNSvUCbQw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 132
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"nomeCurso":"teste","titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:32:21.2772729"}
+
+16:41:57.002 [main]  DEBUG com.intuit.karate - response time in milliseconds: 65
+1 < 201
+1 < Location: http://localhost:8080/topicos/16
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 19:41:56 GMT
+{"id":16,"titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:41:56.9813061"}
+
+16:41:57.026 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/cadastrar.feature:10
+Then status 200
+status code was: 201, expected: 200, response time in milliseconds: 65, url: http://localhost:8080/topicos, response: 
+{"id":16,"titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:41:56.9813061"}
+src/test/java/automacao/feature/cadastrar.feature:10
+16:41:57.656 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+16:42:05.312 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+16:42:05.684 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685734925679
+16:42:05.716 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5
+16:42:07.178 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0Nzk0LCJleHAiOjE2ODU4MjE1OTR9.a3Wx9D_oOaHCFZFATYUYIJPO11ojx2mDO9XNSvUCbQw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 132
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"nomeCurso":"teste","titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:32:21.2772729"}
+
+16:42:07.265 [main]  DEBUG com.intuit.karate - response time in milliseconds: 84
+1 < 201
+1 < Location: http://localhost:8080/topicos/17
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 02 Jun 2023 19:42:07 GMT
+{"id":17,"titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:42:07.2342926"}
+
+16:42:07.914 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+00:22:14.140 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+00:22:14.613 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685762534607
+00:22:14.650 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6
+00:22:15.844 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/cadastrar.feature:5
+* def body = read('classpath:automacao/feature/payload/cadastrarTopicos.json')
+js failed:
+>>>>
+01: read('classpath:automacao/feature/payload/cadastrarTopicos.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: automacao/feature/payload/cadastrarTopicos.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+src/test/java/automacao/feature/cadastrar.feature:5
+00:22:16.836 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+00:23:01.829 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:23:01.881 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685762581869
+00:23:01.955 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+00:23:05.392 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:23:06.353 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:23:06.950 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 373
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:23:06 GMT
+{"content":[{"id":18,"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2023-06-03T00:16:06.23385"},{"id":17,"titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:42:07.234293"},{"id":16,"titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:41:56.981306"},{"id":15,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2023-06-02T16:37:35.12538"},{"id":14,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2023-06-02T16:32:21.277273"},{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"unsorted":false,"sorted":true,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"paged":true,"unpaged":false},"last":false,"totalElements":18,"totalPages":2,"size":10,"number":0,"sort":{"unsorted":false,"sorted":true,"empty":false},"numberOfElements":10,"first":true,"empty":false}
+
+00:23:06.966 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 18,
+      "titulo": "TAG TITULO",
+      "mensagem": "TAG MENSAGEM",
+      "dataCriacao": "2023-06-03T00:16:06.23385"
+    },
+    {
+      "id": 17,
+      "titulo": "Teste Automacao",
+      "mensagem": "Criando teste de automacao",
+      "dataCriacao": "2023-06-02T16:42:07.234293"
+    },
+    {
+      "id": 16,
+      "titulo": "Teste Automacao",
+      "mensagem": "Criando teste de automacao",
+      "dataCriacao": "2023-06-02T16:41:56.981306"
+    },
+    {
+      "id": 15,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2023-06-02T16:37:35.12538"
+    },
+    {
+      "id": 14,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2023-06-02T16:32:21.277273"
+    },
+    {
+      "id": 13,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "unsorted": false,
+      "sorted": true,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": false,
+  "totalElements": 18,
+  "totalPages": 2,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "unsorted": false,
+    "sorted": true,
+    "empty": false
+  },
+  "numberOfElements": 10,
+  "first": true,
+  "empty": false
+}
+ 
+00:23:09.235 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:automacao/feature/consultar_topicos.feature
+00:23:20.716 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: automacao/feature/cadastrar.feature - no viable alternative at input '\r\n@cadastrar\r\nBackground: '
+00:23:53.748 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:23:53.759 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685762633752
+00:23:53.783 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+00:23:55.056 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:23:55.437 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/topicos
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:23:55.648 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 208
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:23:55 GMT
+{"content":[{"id":18,"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2023-06-03T00:16:06.23385"},{"id":17,"titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:42:07.234293"},{"id":16,"titulo":"Teste Automacao","mensagem":"Criando teste de automacao","dataCriacao":"2023-06-02T16:41:56.981306"},{"id":15,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2023-06-02T16:37:35.12538"},{"id":14,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2023-06-02T16:32:21.277273"},{"id":13,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":12,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":11,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":10,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"},{"id":9,"titulo":"DÃºvida 3","mensagem":"erro ao criar projeto 3","dataCriacao":"2019-05-17T00:00:00"}],"pageable":{"sort":{"unsorted":false,"sorted":true,"empty":false},"offset":0,"pageSize":10,"pageNumber":0,"paged":true,"unpaged":false},"last":false,"totalElements":18,"totalPages":2,"size":10,"number":0,"sort":{"unsorted":false,"sorted":true,"empty":false},"numberOfElements":10,"first":true,"empty":false}
+
+00:23:55.681 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "content": [
+    {
+      "id": 18,
+      "titulo": "TAG TITULO",
+      "mensagem": "TAG MENSAGEM",
+      "dataCriacao": "2023-06-03T00:16:06.23385"
+    },
+    {
+      "id": 17,
+      "titulo": "Teste Automacao",
+      "mensagem": "Criando teste de automacao",
+      "dataCriacao": "2023-06-02T16:42:07.234293"
+    },
+    {
+      "id": 16,
+      "titulo": "Teste Automacao",
+      "mensagem": "Criando teste de automacao",
+      "dataCriacao": "2023-06-02T16:41:56.981306"
+    },
+    {
+      "id": 15,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2023-06-02T16:37:35.12538"
+    },
+    {
+      "id": 14,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2023-06-02T16:32:21.277273"
+    },
+    {
+      "id": 13,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 12,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 11,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 10,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    },
+    {
+      "id": 9,
+      "titulo": "DÃºvida 3",
+      "mensagem": "erro ao criar projeto 3",
+      "dataCriacao": "2019-05-17T00:00:00"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "unsorted": false,
+      "sorted": true,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 10,
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": false,
+  "totalElements": 18,
+  "totalPages": 2,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "unsorted": false,
+    "sorted": true,
+    "empty": false
+  },
+  "numberOfElements": 10,
+  "first": true,
+  "empty": false
+}
+ 
+00:23:56.597 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:automacao/feature/consultar_topicos.feature
+00:24:29.648 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:24:29.662 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685762669653
+00:24:29.679 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+00:24:31.079 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:24:31.890 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzM0Nzk0LCJleHAiOjE2ODU4MjE1OTR9.a3Wx9D_oOaHCFZFATYUYIJPO11ojx2mDO9XNSvUCbQw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 117
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2019-05-17T00:00:00","nomeCurso":"TAG NOME DO CURSO"}
+
+00:24:32.182 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 289
+1 < 201
+1 < Location: http://localhost:8080/topicos/19
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:24:32 GMT
+{"id":19,"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2023-06-03T00:24:32.1672865"}
+
+00:24:33.075 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+00:26:02.107 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:26:02.116 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685762762110
+00:26:02.129 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+00:26:03.521 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:26:03.959 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+00:26:05.137 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1176
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:26:05 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzYyNzY0LCJleHAiOjE2ODU4NDk1NjR9.3qlfXBIGLvRdXnH8hrS_YsECeAfblx1rAfmfeF6w0xw","tipo":"Bearer"}
+
+00:26:05.160 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzYyNzY0LCJleHAiOjE2ODU4NDk1NjR9.3qlfXBIGLvRdXnH8hrS_YsECeAfblx1rAfmfeF6w0xw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 117
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2019-05-17T00:00:00","nomeCurso":"TAG NOME DO CURSO"}
+
+00:26:05.677 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 517
+1 < 201
+1 < Location: http://localhost:8080/topicos/20
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:26:05 GMT
+{"id":20,"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2023-06-03T00:26:05.6728802"}
+
+00:26:06.626 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+00:26:52.128 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+00:26:52.507 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685762812501
+00:26:53.751 [main]  ERROR com.intuit.karate - src/test/java/automacao/feature/cadastrar.feature:5
+* def auth = call read('classpath:automacao/feature/auth.feature')
+js failed:
+>>>>
+01: read('classpath:automacao/feature/auth.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: automacao/feature/auth.feature
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+src/test/java/automacao/feature/cadastrar.feature:5
+00:26:54.528 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/automacao/feature/cadastrar.feature
+00:27:18.366 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:27:18.377 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685762838369
+00:27:18.389 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+00:27:19.723 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:27:20.147 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+00:27:20.560 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 410
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:27:20 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzYyODQwLCJleHAiOjE2ODU4NDk2NDB9.fZDW8PhUzdG8pkdpqELh1pi6PVuVxd1_x8ZMXOrwRs0","tipo":"Bearer"}
+
+00:27:20.606 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzYyODQwLCJleHAiOjE2ODU4NDk2NDB9.fZDW8PhUzdG8pkdpqELh1pi6PVuVxd1_x8ZMXOrwRs0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 117
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2019-05-17T00:00:00","nomeCurso":"TAG NOME DO CURSO"}
+
+00:27:20.749 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 142
+1 < 201
+1 < Location: http://localhost:8080/topicos/21
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:27:20 GMT
+{"id":21,"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2023-06-03T00:27:20.7065639"}
+
+00:27:20.789 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/cadastrar.feature:13
+Then status 200
+status code was: 201, expected: 200, response time in milliseconds: 142, url: http://localhost:8080/topicos, response: 
+{"id":21,"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2023-06-03T00:27:20.7065639"}
+classpath:automacao/feature/cadastrar.feature:13
+00:27:21.840 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+00:30:27.751 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:30:27.766 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685763027755
+00:30:27.776 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+00:30:29.007 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:30:29.418 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+00:30:29.664 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 245
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:30:29 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzYzMDI5LCJleHAiOjE2ODU4NDk4Mjl9.QoWi3eTtDwk66YCS-4tX3w1oCNelc_ryQkeRjtNg-xM","tipo":"Bearer"}
+
+00:30:29.694 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzYzMDI5LCJleHAiOjE2ODU4NDk4Mjl9.QoWi3eTtDwk66YCS-4tX3w1oCNelc_ryQkeRjtNg-xM
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 117
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2019-05-17T00:00:00","nomeCurso":"TAG NOME DO CURSO"}
+
+00:30:29.877 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 181
+1 < 201
+1 < Location: http://localhost:8080/topicos/22
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:30:29 GMT
+{"id":22,"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2023-06-03T00:30:29.8660352"}
+
+00:30:30.905 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+00:41:04.494 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:41:04.505 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685763664497
+00:41:04.517 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+00:41:05.720 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:41:06.098 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+00:41:06.467 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 367
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:41:06 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzYzNjY2LCJleHAiOjE2ODU4NTA0NjZ9.Lgf8Yps_IXkinf-kC5tLRA-Tw5wJi6Q3DF0Mia4wPl0","tipo":"Bearer"}
+
+00:41:06.491 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzYzNjY2LCJleHAiOjE2ODU4NTA0NjZ9.Lgf8Yps_IXkinf-kC5tLRA-Tw5wJi6Q3DF0Mia4wPl0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 117
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2019-05-17T00:00:00","nomeCurso":"TAG NOME DO CURSO"}
+
+00:41:07.129 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 636
+1 < 201
+1 < Location: http://localhost:8080/topicos/23
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 03:41:06 GMT
+{"id":23,"titulo":"TAG TITULO","mensagem":"TAG MENSAGEM","dataCriacao":"2023-06-03T00:41:06.8580645"}
+
+00:41:07.977 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+02:50:30.710 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:50:30.763 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685771430750
+02:50:30.792 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+02:50:35.762 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+02:50:39.092 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+02:51:09.145 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 29973
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 05:51:08 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzcxNDY3LCJleHAiOjE2ODU4NTgyNjd9.X-X-S4df9WKRlqMURpwhRG-JwNV5Rlmm7LTiCqdDbMw","tipo":"Bearer"}
+
+02:51:09.204 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/cadastrar.feature:6
+* def gerador = Java.type('classpath:automacao/support')
+js failed:
+>>>>
+01: Java.type('classpath:automacao/support')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class classpath:automacao/support is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+classpath:automacao/feature/cadastrar.feature:6
+02:51:12.218 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+02:52:21.954 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:52:22.022 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685771542015
+02:52:22.057 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+02:52:25.189 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+02:52:26.143 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+02:52:26.559 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 398
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 05:52:26 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzcxNTQ2LCJleHAiOjE2ODU4NTgzNDZ9.zTVbxqMHdBFJ5Nnflb3Bxoiq8IxIuD1OrWnkPaPtzSA","tipo":"Bearer"}
+
+02:52:26.615 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/cadastrar.feature:6
+* def gerador = Java.type('automacao/support')
+js failed:
+>>>>
+01: Java.type('automacao/support')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class automacao/support is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+classpath:automacao/feature/cadastrar.feature:6
+02:52:28.918 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+02:53:03.527 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:53:03.542 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685771583532
+02:53:03.559 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+02:53:05.252 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+02:53:05.819 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+02:53:06.123 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 301
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 05:53:06 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzcxNTg2LCJleHAiOjE2ODU4NTgzODZ9.3vkpRcX2lLPOlkzbDP8YnwjPl2Q7iqDILcA1sFbH0Nc","tipo":"Bearer"}
+
+02:53:06.176 [pool-1-thread-1] ERROR com.intuit.karate - classpath:automacao/feature/cadastrar.feature:6
+* def gerador = Java.type('automacao.support')
+js failed:
+>>>>
+01: Java.type('automacao.support')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class automacao.support is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+classpath:automacao/feature/cadastrar.feature:6
+02:53:07.441 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+02:54:09.983 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:54:09.997 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685771649987
+02:54:10.014 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+02:54:12.004 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+02:54:12.553 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+02:54:15.966 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 3411
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 05:54:15 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzcxNjU1LCJleHAiOjE2ODU4NTg0NTV9.TuqdPUqEeqHDh1rWHUt9GzhilpS8Tpx5gBiymiTopZk","tipo":"Bearer"}
+
+02:54:17.157 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzcxNjU1LCJleHAiOjE2ODU4NTg0NTV9.TuqdPUqEeqHDh1rWHUt9GzhilpS8Tpx5gBiymiTopZk
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 115
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"mangosteens","mensagem":"mckenzie group","dataCriacao":"2019-05-17T00:00:00","nomeCurso":"ina.schulist"}
+
+02:54:27.265 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 10108
+1 < 201
+1 < Location: http://localhost:8080/topicos/24
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 05:54:27 GMT
+{"id":24,"titulo":"mangosteens","mensagem":"mckenzie group","dataCriacao":"2023-06-03T02:54:25.5072184"}
+
+02:54:28.689 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+02:57:27.483 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: automacao/feature/cadastrar.feature - extraneous input '\r\n\r\n    Examples: ' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+02:57:55.894 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: automacao/feature/cadastrar.feature - extraneous input '\r\n\r\n    Examples: ' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+02:58:46.096 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: automacao/feature/cadastrar.feature - extraneous input '\r\n\r\n    Examples: ' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+03:00:15.666 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:00:15.697 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685772015692
+03:00:15.714 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+03:00:18.957 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:00:20.447 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+03:00:21.197 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 718
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 06:00:21 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzcyMDIxLCJleHAiOjE2ODU4NTg4MjF9.TR-8rebnssN1V3BEvijZeI5VhT16VTKRNFGH5fkRWu4","tipo":"Bearer"}
+
+03:00:21.962 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzcyMDIxLCJleHAiOjE2ODU4NTg4MjF9.TR-8rebnssN1V3BEvijZeI5VhT16VTKRNFGH5fkRWu4
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 108
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"cranberry","mensagem":"lynch group","dataCriacao":"2019-05-17T00:00:00","nomeCurso":"eric.fahey"}
+
+03:00:22.836 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 874
+1 < 201
+1 < Location: http://localhost:8080/topicos/25
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 06:00:22 GMT
+{"id":25,"titulo":"cranberry","mensagem":"lynch group","dataCriacao":"2023-06-03T03:00:22.7946176"}
+
+03:00:25.206 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+03:04:59.600 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:04:59.617 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685772299605
+03:04:59.636 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+03:05:03.540 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:05:04.689 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+03:05:04.988 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 296
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 06:05:04 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzcyMzA0LCJleHAiOjE2ODU4NTkxMDR9.YfnPN8SznOTZlhs8jl9ar6ix0_mH-SeyWCF553CFL1U","tipo":"Bearer"}
+
+03:05:05.723 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzcyMzA0LCJleHAiOjE2ODU4NTkxMDR9.YfnPN8SznOTZlhs8jl9ar6ix0_mH-SeyWCF553CFL1U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 127
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"nashi pear","mensagem":"metz, lubowitz and welch","dataCriacao":"2019-05-17T00:00:00","nomeCurso":"samuel.ondricka"}
+
+03:05:06.362 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 639
+1 < 201
+1 < Location: http://localhost:8080/topicos/26
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 06:05:06 GMT
+{"id":26,"titulo":"nashi pear","mensagem":"metz, lubowitz and welch","dataCriacao":"2023-06-03T03:05:06.2278849"}
+
+03:05:11.135 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+03:17:30.742 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:17:30.775 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685773050767
+03:17:30.804 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+03:17:34.056 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:17:35.265 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+03:17:35.600 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 265
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 06:17:35 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzczMDU1LCJleHAiOjE2ODU4NTk4NTV9.gkSqT-hGS2DkgdNo5U7eqF5qUqRh8S6pYRQgjLJpTX4","tipo":"Bearer"}
+
+03:17:36.423 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzczMDU1LCJleHAiOjE2ODU4NTk4NTV9.gkSqT-hGS2DkgdNo5U7eqF5qUqRh8S6pYRQgjLJpTX4
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 127
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"limes","mensagem":"bosco, feil and greenfelder","dataCriacao":"2019-05-17T00:00:00","nomeCurso":"latrina.buckridge"}
+
+03:17:36.924 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 492
+1 < 201
+1 < Location: http://localhost:8080/topicos/27
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 06:17:36 GMT
+{"id":27,"titulo":"limes","mensagem":"bosco, feil and greenfelder","dataCriacao":"2023-06-03T03:17:36.8443316"}
+
+03:17:39.394 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
+03:30:38.014 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:30:38.048 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685773838039
+03:30:38.067 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+03:30:41.772 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+03:30:43.741 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"email":"aluno@gmail.com","senha":123456}
+
+03:30:44.180 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 428
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 06:30:44 GMT
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzczODQ0LCJleHAiOjE2ODU4NjA2NDR9.lDMAf9Y81Tt7zVLeFum2RJqGT5KI2ODaEeSEh1CnPNU","tipo":"Bearer"}
+
+03:30:45.131 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/topicos
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gRm9ydW0gZGEgQWx1cmEiLCJzdWIiOiIxIiwiaWF0IjoxNjg1NzczODQ0LCJleHAiOjE2ODU4NjA2NDR9.lDMAf9Y81Tt7zVLeFum2RJqGT5KI2ODaEeSEh1CnPNU
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 129
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.18)
+1 > Accept-Encoding: gzip,deflate
+{"titulo":"elderberry","mensagem":"fisher, streich and labadie","dataCriacao":"2019-05-17T00:00:00","nomeCurso":"emmitt.wiegand"}
+
+03:30:45.313 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 182
+1 < 201
+1 < Location: http://localhost:8080/topicos/28
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 03 Jun 2023 06:30:45 GMT
+{"id":28,"titulo":"elderberry","mensagem":"fisher, streich and labadie","dataCriacao":"2023-06-03T03:30:45.307311"}
+
+03:30:47.708 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (1 remaining) classpath:automacao/feature/cadastrar.feature
